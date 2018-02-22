@@ -4,6 +4,11 @@
 
 <?php include(HTML_DIR . 'overall/topnav.php'); ?>
 
+<?php include(HTML_DIR . 'public/login.html'); ?>
+<?php include(HTML_DIR . 'public/reg.html'); ?>
+<?php include(HTML_DIR . 'public/lostpass.html'); ?>
+
+
 
 <?php include(HTML_DIR . 'overall/footer.php'); ?>
 

@@ -23,8 +23,7 @@
                       <li ><a href="#">Accesorios</a></li>
                       <li ><a href="#">Hogar</a></li>
                     </ul>
-                </li>
-            
+                </li>            
             <li class="nav-item">
               <a class="nav-link" href="#">Actualidad</a>
             </li>
@@ -32,10 +31,16 @@
               <a class="nav-link" href="#">Contactanos</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="#">Login</a>
+              <a class="nav-link" data-toggle="modal" data-target="#Login" href="#">Iniciar Sesión</a>
+            <!-- <button type="button" class="btn btn-success" data-toggle="modal" data-target="#Login">
+	          Iniciar Sesión
+            </button> -->
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="#">Registrate</a>
+            <a class="nav-link" data-toggle="modal" data-target="#Reg" href="#">Registrarse</a>
+           <!--  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Reg">
+	            Registrarse
+            </button> -->
             </li>
           </ul>
         </div>
