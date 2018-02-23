@@ -10,7 +10,7 @@
       </div>
       
       <div class="modal-body">          
-
+        <div role="form" onkeypress="return CargLogin(event)">
            <form action="#">
               <div class="form-group">
                 <label for="email">Email:</label>
@@ -23,9 +23,11 @@
               <div class="checkbox">
                 <label><input type="checkbox"> Remember me</label>
               </div>
-              <button type="submit" class="btn btn-primary" onclick="goLogin()">Iniciar</button>
+              <button type="submit" class="btn btn-primary" id="iniciar_sesion">Iniciar</button>
             </form>
+          </div>
         </div>
       </div>
     </div>
   </div>
+  <script src="views/app/js/login.js"></script>
