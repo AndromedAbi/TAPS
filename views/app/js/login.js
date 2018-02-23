@@ -4,7 +4,6 @@ function runScriptLogin(event){
       goLogin();
     }
   }
-
 function goLogin()
 {
     window.alert('ok');
