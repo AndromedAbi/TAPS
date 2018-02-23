@@ -10,21 +10,19 @@
       </div>
       
       <div class="modal-body">          
-        <div role="form" onkeypress="return CargLogin(event)">
-           <form action="#">
+        <div role="form" onkeypress="return runScriptLogin(event)">
               <div class="form-group">
                 <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email">
+                <input type="text" class="form-control" id="email">
               </div>
               <div class="form-group">
                 <label for="pwd">Password:</label>
-                <input type="password" class="form-control" id="pwd">
+                <input type="text" class="form-control" id="pwd">
               </div>
               <div class="checkbox">
-                <label><input type="checkbox"> Remember me</label>
+                <label><input type="checkbox" id="login"> Remember me</label>
               </div>
-              <button type="submit" class="btn btn-primary" id="iniciar_sesion">Iniciar</button>
-            </form>
+              <button type="button" class="btn btn-primary" id="sesion">Iniciar</button>
           </div>
         </div>
       </div>
