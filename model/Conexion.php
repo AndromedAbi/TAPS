@@ -4,9 +4,9 @@ class Conexion extends mysqli
 {
     public function __construct()
     {
-        parent::__construct(DB_HOST,DB_USER,DB_PASS,DB_NAME);
-        $this->connect_errno ? die('Error en conexion a base de datos'): null;
-        $this ->set_charset('utf8');
+        parent::__construct(BD_HOST,DB_USER,DB_PASS,DB_NAME);
+        $this->connect_errno ? die ('Error'):null;
+        $this->set_charset("utf8");
     }
 
     public function rows($query)
@@ -19,11 +19,13 @@ class Conexion extends mysqli
         return mysqli_free_result($query);
     }
 
-    public function recorrer($query) 
+    public function recorrer($query)
     {
         return mysqli_fetch_array($query);
     }
+
 }
+ 
 
 
 ?>

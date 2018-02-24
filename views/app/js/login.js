@@ -8,10 +8,14 @@ function runScriptLogin(event)
  }
 function goLogin()
 {
-    var connect, form , response, result;
-    form = 'variable=contenido';   
+    var connect, form , response, result , email , pass , session ;
+    email = __('email').value;
+    pass = __('pass').value;
+    session = __('sesion').checked ? true : false;
+    form = 'email='+ email + 'pass=' + pass + 'sesion=' + session;     
    
-    connect = window.XMLHttpResquest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');    
+    //connect = window.XMLHttpResquest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');    
+    connect = GetXmlHttpObject();
 
     connect.onreadystatechange = function()
     {
@@ -19,12 +23,10 @@ function goLogin()
         {
             if(connect.responseText == 1)
             {
-              result = '<div class="alert alert-dismissible alert-warning">';
+              result = '<div class="alert alert-dismissible alert-succes">';
               result +='<button type="button" class="close" data-dismiss="alert">&times;</button>';
               result +='<h4 class="alert-heading">Bienvedios a Taps Diseños </h4>';
-              result +='<p class="mb-0">Ha Iniciado Conrrectamente';            
-              result +='<a href="#" class="alert-link">vel scelerisque nisl consectetur et</a>.</p>';
-              result +='</div>';
+              result +='<p class="mb-0">Ha Iniciado Conrrectamente </p></div>';             
               __('_AJAX_LOGIN_').innerHTML = result;
               location.reload();
             }
@@ -35,12 +37,10 @@ function goLogin()
         }
         else if (connect.readyState != 4)
         {
-          result = '<div class="alert alert-dismissible alert-warning">';
-          result +='<button type="button" class="close" data-dismiss="alert">&times;</button>';
-          result +='<h4 class="alert-heading">Procesando...</h4>';
-          result +='<p class="mb-0"> Estamos Iniciando Session Por favor espere...';            
-          result +='<a href="#" class="alert-link">vel scelerisque nisl consectetur et</a>.</p>';
-          result +='</div>';        
+              result = '<div class="alert alert-dismissible alert-warning">';
+              result +='<button type="button" class="close" data-dismiss="alert">&times;</button>';
+              result +='<h4 class="alert-heading">Bienvedios a Taps Diseños </h4>';
+              result +='<p class="mb-0">Ha Iniciado Conrrectamente </p></div>';             
           __('_AJAX_LOGIN_').innerHTML = result;
         }
      }
@@ -48,3 +48,19 @@ function goLogin()
     connect.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
     connect.send(form);
 }
+//Cree esta funcion por que la del video no me sirve :) 24-02-2018
+function GetXmlHttpObject()
+{ 
+    var objXMLHttp=null;
+    if (window.XMLHttpRequest)
+    {
+        objXMLHttp=new XMLHttpRequest();
+    }
+    else if (window.ActiveXObject)
+    {
+        objXMLHttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    return objXMLHttp;
+}
+
+
