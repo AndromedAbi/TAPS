@@ -47,6 +47,7 @@
       </div>
     </nav>
 
+<<<<<<< HEAD
     <!-- Page Content -->
     <div class="container">
 
@@ -179,3 +180,6 @@
 
     </div>
     <!-- /.container -->
+=======
+   
+>>>>>>> cf4a03871eaf660c033134e1318a295c08825fb6
