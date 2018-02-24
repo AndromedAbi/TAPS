@@ -6,5 +6,21 @@ function runScriptLogin(event){
   }
 function goLogin()
 {
-    window.alert('ok');
+    var connect, form , response, result;
+    form = 'variable=contenido'
+    connect = window.XMLHttpResquest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+    connect.onreadystatechange = function()
+    {
+      if(connect.readyState == 4 && connect.status == 200)
+      {
+
+      }
+      else if (connect.readyState !=4)
+      {
+        
+      }
+    }
+    connect.open('POST','ajax.php?mode=login',true);
+    connect.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+    connect.send(form);
 }

@@ -16,5 +16,5 @@ define('APP_URL','http://localhost/startbootstrap-shop-homepage-gh-pages');
 
 
 require('vendor/autoload.php');
-require('core/model/class.Conexion.php');
+##require('core/model/class.Conexion.php');
 ?>

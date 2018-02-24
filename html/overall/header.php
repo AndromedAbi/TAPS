@@ -14,13 +14,10 @@
   <link rel="stylesheet" href="views/bootstrap/css/main.css">
   <link rel="stylesheet" href="views/socicon/css/socicon.min.css">
   <link rel="stylesheet" href="views/mobirise/css/style.css"> 
-
-    <link rel="stylesheet" href="views/app/js/generales.js"> 
-
-
   <link rel="stylesheet" href="views/bootstrap/css/business-casual.css">
 
-<script src="views/apps/js/generales.js"></script>
+  <script src="views/app/js/generales.js"></script>
+  
   <title><?php echo APP_TITLE; ?></title>
 
     <!-- Bootstrap core CSS -->
