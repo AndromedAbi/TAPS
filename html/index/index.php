@@ -4,7 +4,7 @@
 
 <?php include(HTML_DIR . 'overall/topnav.php'); ?>
 
-<?php include(HTML_DIR . 'public/slider.html'); ?>
+ <?php include(HTML_DIR . 'public/slider.html'); ?> 
 <?php include(HTML_DIR . 'public/contenido.html'); ?>
 
 <?php include(HTML_DIR . 'public/login.html'); ?>
