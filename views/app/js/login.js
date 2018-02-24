@@ -3,14 +3,16 @@ function runScriptLogin(event)
     // si la tecla presionada es igual al número ASCI de la tecla ENTER
     if(event.keyCode == 13)
     {
-      goLogin();
+      goLogin();   
     }
  }
 function goLogin()
 {
     var connect, form , response, result;
-    form = 'variable=contenido'
-    connect = window.XMLHttpResquest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+    form = 'variable=contenido';   
+   
+    connect = window.XMLHttpResquest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');    
+
     connect.onreadystatechange = function()
     {
         if(connect.readyState == 4 && connect.status == 200)
@@ -23,12 +25,12 @@ function goLogin()
               result +='<p class="mb-0">Ha Iniciado Conrrectamente';            
               result +='<a href="#" class="alert-link">vel scelerisque nisl consectetur et</a>.</p>';
               result +='</div>';
-              __('_ajax_login_').innerHTML = result;
+              __('_AJAX_LOGIN_').innerHTML = result;
               location.reload();
             }
             else
             {
-              __('_ajax_login_').innerHTML = connect.responseText;
+              __('_AJAX_LOGIN_').innerHTML = connect.responseText;
             }
         }
         else if (connect.readyState != 4)
@@ -38,9 +40,8 @@ function goLogin()
           result +='<h4 class="alert-heading">Procesando...</h4>';
           result +='<p class="mb-0"> Estamos Iniciando Session Por favor espere...';            
           result +='<a href="#" class="alert-link">vel scelerisque nisl consectetur et</a>.</p>';
-          result +='</div>';
-        
-          __('_ajax_login_').innerHTML = result;
+          result +='</div>';        
+          __('_AJAX_LOGIN_').innerHTML = result;
         }
      }
     connect.open('POST','ajax.php?mode=login',true);

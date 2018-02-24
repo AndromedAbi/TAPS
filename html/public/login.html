@@ -7,8 +7,15 @@
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">          
-            <form action="#">
+        <div id="_AJAX_LOGIN_">
+
+          
+        </div>
+
+        <div class="modal-body">   
+
+            <div rol="form" onkeypress="return runScriptLogin(event)">
+
               <div class="form-group">
                 <label for="email">Email address:</label>
                 <input type="email" class="form-control" id="email">
@@ -20,12 +27,15 @@
               <div class="checkbox">
                 <label><input type="checkbox"> Remember me</label>
               </div>
-              <button type="submit" class="btn btn-primary ">Iniciar</button>
-            </form>
+              <button type="button" class="btn btn-primary" onclick="goLogin()">Iniciar</button>
+
+            </div>
         </div>
       </div>
     </div>
   </div>
+
+  <script src="views/app/js/login.js"></script>
      
 
        
