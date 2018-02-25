@@ -8,6 +8,8 @@ define('DB_USER','root');
 define('DB_PASS','');
 define('DB_NAME','dbtaps');
 
+
+
 #Constante de la APP
 define('HTML_DIR','html/');
 define('APP_TITLE','Taps Diseños');

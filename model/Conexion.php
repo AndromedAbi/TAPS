@@ -4,10 +4,12 @@ class Conexion extends mysqli
 {
     public function __construct()
     {
-        parent::__construct(BD_HOST,DB_USER,DB_PASS,DB_NAME);
-        $this->connect_errno ? die ('Error'):null;
+        parent::__construct('localhost','root','','dbtaps');
+        $this->connect_errno ? die ('Error en la conexion a la base de datos Taps'+$this->connect_error):null;
         $this->set_charset("utf8");
-    }
+    }   
+
+    
 
     public function rows($query)
     {

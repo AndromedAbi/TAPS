@@ -9,12 +9,11 @@ function runScriptLogin(event)
 function goLogin()
 {
     var connect, form , response, result , email , pass , session ;
-    email = __('email').value;
-    pass = __('pass').value;
-    session = __('sesion').checked ? true : false;
-    form = 'email='+ email + 'pass=' + pass + 'sesion=' + session;     
-   
-    //connect = window.XMLHttpResquest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');    
+    email = __('email_login').value;
+    pass = __('pass_login').value;
+    session = __('sesion_login').checked ? true : false;
+    form = 'email='+ email + '&pass=' + pass + '&sesion=' + session;       
+    
     connect = GetXmlHttpObject();
 
     connect.onreadystatechange = function()
