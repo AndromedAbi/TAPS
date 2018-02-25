@@ -2,6 +2,8 @@
 /*
   EL NUCLUEO DE LA APLICACIÓN
 */
+session_start();
+
 #Constantes de Conexion
 define('DB_HOST','localhost');
 define('DB_USER','root');
@@ -20,7 +22,9 @@ define('APP_URL','http://localhost/startbootstrap-shop-homepage-gh-pages');
 require('vendor/autoload.php');
 require('model/Conexion.php');
 require('core/bin/functions/Encrypt.php');
+require('core/bin/functions/User.php');
 
+$user = User();
 
 
 ?>

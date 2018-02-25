@@ -30,24 +30,46 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Contactanos</a>
             </li>
-            <li class="nav-item ">
-              <a class="nav-link" data-toggle="modal" data-target="#Login" href="#">Iniciar Sesión</a>
-            <!-- <button type="button" class="btn btn-success" data-toggle="modal" data-target="#Login">
-	          Iniciar Sesión
-            </button> -->
-            </li>
-            <li class="nav-item ">
-            <a class="nav-link" data-toggle="modal" data-target="#Reg" href="#">Registrarse</a>
-           <!--  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Reg">
-	            Registrarse
-            </button> -->
-            </li>
+
+             
+          
+              <?php
+                if(!isset($_SESSION['app_id']))
+                {
+                  echo '  <li class="nav-item ">';
+                  echo '<a class="nav-link" data-toggle="modal" data-target="#Login" href="#">Iniciar Sesión</a>';
+                  echo '</li>';
+
+
+                  echo '<li class="nav-item ">';
+                  echo  '<a class="nav-link" data-toggle="modal" data-target="#Reg" href="#">Registrarse</a>';  echo '</li>';
+                }
+                else
+                {
+                 echo '<li class="nav-item ">';
+                 echo '<a class="nav-link" data-toggle="modal" data-target="#Login" href="?view=perfil&id='.$_SESSION['app_id'].'">'. strtoupper($user[$_SESSION['app_id']]['user']).'</a>';   
+                 echo '</li>';  
+                 
+                 echo '<li class="nav-item ">';
+                 echo  '<a class="nav-link" data-toggle="modal" data-target="#Reg" href="#">Cuenta</a>';  echo '</li>';
+
+
+                }
+              ?>	
+
           </ul>
         </div>
       </div>
     </nav>
 
-
+<?php
+  if(!isset($_SESSION['app_id']))
+  {
+   include(HTML_DIR . 'public/login.html'); 
+   include(HTML_DIR . 'public/reg.html'); 
+   include(HTML_DIR . 'public/lostpass.html'); 
+  }
+?>
  
          
 
