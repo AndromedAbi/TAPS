@@ -4,9 +4,9 @@
 if(!empty($_POST['email']) and !empty($_POST['pass']))
 {
     $db = new Conexion();
-    $email = $db-real_escape_string($_POST['email']);
+    $email = $db->real_escape_string($_POST['email']);
     $pass = Encrypt($_POST['pass']);
-    $sql = $db->query("SELECT * FROM usuarios WHERE email='$email' AND pass='$pass' LIMIT 1;");
+    $sql = $db->query("SELECT * FROM usuarios WHERE email='$email' AND clave='$pass' LIMIT 1;");
     if($db->rows($sql) > 0)
     {
         echo '1';
