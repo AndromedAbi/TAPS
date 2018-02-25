@@ -24,6 +24,8 @@ require('model/Conexion.php');
 require('core/bin/functions/Encrypt.php');
 require('core/bin/functions/User.php');
 
+
+
 $user = User();
 
 

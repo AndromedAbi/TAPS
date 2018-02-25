@@ -31,31 +31,29 @@
               <a class="nav-link" href="#">Contactanos</a>
             </li>
 
-             
-          
-              <?php
-                if(!isset($_SESSION['app_id']))
-                {
-                  echo '  <li class="nav-item ">';
-                  echo '<a class="nav-link" data-toggle="modal" data-target="#Login" href="#">Iniciar Sesión</a>';
-                  echo '</li>';
 
+          <?php 
+            if(!isset($_SESSION['app_id']))
+            {
+              echo '<li class="nav-item "><a class="nav-link" data-toggle="modal" data-target="#Login" href="#">Iniciar Sesión</a></li>';
+              echo '<li class="nav-item ">
+              <a class="nav-link" data-toggle="modal" data-target="#Reg" href="#">Registrarse</a>          
+              </li>';
 
-                  echo '<li class="nav-item ">';
-                  echo  '<a class="nav-link" data-toggle="modal" data-target="#Reg" href="#">Registrarse</a>';  echo '</li>';
-                }
-                else
-                {
-                 echo '<li class="nav-item ">';
-                 echo '<a class="nav-link" data-toggle="modal" data-target="#Login" href="?view=perfil&id='.$_SESSION['app_id'].'">'. strtoupper($user[$_SESSION['app_id']]['user']).'</a>';   
-                 echo '</li>';  
-                 
-                 echo '<li class="nav-item ">';
-                 echo  '<a class="nav-link" data-toggle="modal" data-target="#Reg" href="#">Cuenta</a>';  echo '</li>';
+            }
+            else
+            {
+              echo '<li class="nav-item "><a class="nav-link" data-toggle="modal" data-target="#Login" href="#">'.strtoupper($user[$_SESSION['app_id']]['user']).'</a></li>';
 
-
-                }
-              ?>	
+              echo '<li class="nav-item ">
+              <a class="nav-link" data-toggle="modal" data-target="#Reg" href="#">Cuenta</a>          
+              </li>';
+            
+              echo '<li class="nav-item ">
+              <a class="nav-link" href="Desconectar.php">Cerrar Sessión</a>     
+                </li>';
+            }         
+            ?>          
 
           </ul>
         </div>
@@ -67,7 +65,7 @@
   {
    include(HTML_DIR . 'public/login.html'); 
    include(HTML_DIR . 'public/reg.html'); 
-   include(HTML_DIR . 'public/lostpass.html'); 
+   include(HTML_DIR . 'public/lostpass.html');    
   }
 ?>
  

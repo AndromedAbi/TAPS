@@ -7,9 +7,10 @@
  <?php include(HTML_DIR . 'public/slider.html'); ?> 
 <?php include(HTML_DIR . 'public/contenido.html'); ?>
 
-
-
 <?php include(HTML_DIR . 'overall/footer.php'); ?>
+
+
+
 
 </body>
 </html>
