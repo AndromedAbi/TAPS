@@ -6,13 +6,17 @@ if($_POST)
   switch (isset($_GET['mode']) ? $_GET['mode'] : null)
    {
       case 'login':
-
-        require('core/bin/ajax/goLogin.php');
+        require('core/bin/ajax/goLogin.php');      
+      break;
       
-          break;
+      case 'reg':
+        require('core/bin/ajax/goReg.php');
+       break;
+
+
       
       default:
-          # code...
+      header('location: index.php');
           break;
   }
     
