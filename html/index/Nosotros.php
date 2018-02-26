@@ -29,7 +29,7 @@
 </div>
 
 <div class="container">
- <h1>Creatividad en un diseño ecológico</h1>
+ <h1>Creatividad y ecológico</h1>
     <div class="row">
       <div class="col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum debitis, sunt corporis expedita et incidunt quisquam similique quos earum assumenda reiciendis ducimus ipsum laudantium eveniet, corrupti odit! Quaerat, iure sit.     
       </div>
