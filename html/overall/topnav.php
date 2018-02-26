@@ -9,17 +9,17 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio
+              <a class="nav-link" href="?view=index">Inicio
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Nosotros</a>
+              <a class="nav-link" href="?view=Nosotros">Nosotros</a>
             </li>
             <li class="nav-item dropdown">
                     <a class="nav-link" data-toggle="dropdown" href="#">Productos </a>
                     <ul class="dropdown-menu">
-                      <li ><a href="#">Carteras</a></li>
+                      <li ><a href="?view=Producto">Carteras</a></li>
                       <li ><a href="#">Accesorios</a></li>
                       <li ><a href="#">Hogar</a></li>
                     </ul>
