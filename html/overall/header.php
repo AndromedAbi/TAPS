@@ -23,6 +23,9 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- HOJA DE ESTILOS TAPS -->
+    <link href="css/estilos.css" rel="stylesheet">
+
     <!-- Custom styles for this template -->
     <link href="css/shop-homepage.css" rel="stylesheet">
 

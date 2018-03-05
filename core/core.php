@@ -5,10 +5,10 @@
 session_start();
 
 #Constantes de Conexion
-define('DB_HOST','localhost');
+define('DB_HOST','');
 define('DB_USER','root');
 define('DB_PASS','');
-define('DB_NAME','dbtaps');
+define('DB_NAME','');
 
 
 
@@ -31,8 +31,7 @@ require('core/bin/functions/User.php');
 require('core/bin/functions/EmailTemp.php');
 
 
-
-$user = User();
+//$user = User();
 
 
 ?>
