@@ -13,12 +13,8 @@
   <link rel="stylesheet" href="views/bootstrap/css/bootstrap.min.css">  
   <link rel="stylesheet" href="views/socicon/css/socicon.min.css">
   <link rel="stylesheet" href="views/mobirise/css/style.css"> 
-<<<<<<< HEAD
   <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css"> 
-=======
-
->>>>>>> f35bea5e81eff44a130a5a8a547898685337114a
   
 
   <script src="views/app/js/generales.js"></script>

@@ -1,7 +1,8 @@
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container"> <img src="views/images/logo5.png" class="logo" alt="" />
+    <nav class="navbar navbara navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container"> 
+      <div id="animated-example" class="animated flipInX"><img src="views/images/logo5.png" class="logo" alt="" /></div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
