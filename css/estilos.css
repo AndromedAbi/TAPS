@@ -92,4 +92,10 @@ body{
     -webkit-transform: scale(1);
   }
 
-  
+  h1{
+      color: #0b7;
+  }
+
+  h2{
+      color: blue;
+  }
