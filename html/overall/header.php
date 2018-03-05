@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="views/bootstrap/css/bootstrap.min.css">  
   <link rel="stylesheet" href="views/socicon/css/socicon.min.css">
   <link rel="stylesheet" href="views/mobirise/css/style.css"> 
-  <link rel="stylesheet" href="css/style.css"> 
+
   
 
   <script src="views/app/js/generales.js"></script>
@@ -25,6 +25,7 @@
 
     <!-- HOJA DE ESTILOS TAPS -->
     <link href="css/estilos.css" rel="stylesheet">
+    
 
     <!-- Custom styles for this template -->
     <link href="css/shop-homepage.css" rel="stylesheet">

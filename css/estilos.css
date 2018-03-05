@@ -86,3 +86,6 @@
   .box:hover::after, .box:hover::before {
     -webkit-transform: scale(1);
   }
+  h2{
+    color:rgb(183, 226, 194) !important;
+}
