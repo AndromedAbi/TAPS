@@ -1,5 +1,5 @@
 <?php
-
+/*
 class Conexion extends mysqli
 {
     public function __construct()
@@ -24,5 +24,5 @@ class Conexion extends mysqli
     }
 
 }
-
+*/
 ?>
