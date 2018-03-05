@@ -14,7 +14,7 @@
   <!-- <link rel="stylesheet" href="views/bootstrap/css/main.css"> -->
   <link rel="stylesheet" href="views/socicon/css/socicon.min.css">
   <link rel="stylesheet" href="views/mobirise/css/style.css"> 
-  <!-- <link rel="stylesheet" href="views/bootstrap/css/business-casual.css"> -->
+  <link rel="stylesheet" href="css/style.css"> "   
 
   <script src="views/app/js/generales.js"></script>
   
