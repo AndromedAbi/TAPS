@@ -9,12 +9,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700,400&amp;subset=cyrillic,latin,greek,vietnamese">
-  <link rel="stylesheet" href="views/bootstrap/css/bootstrap.min.css">
-  <!-- <link rel="stylesheet" href="views/bootstrap/css/main.css"> -->
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="views/bootstrap/css/bootstrap.min.css">  
   <link rel="stylesheet" href="views/socicon/css/socicon.min.css">
   <link rel="stylesheet" href="views/mobirise/css/style.css"> 
+<<<<<<< HEAD
   <link rel="stylesheet" href="css/style.css"> "   
+=======
+  <link href="views/fontawesome/fontawesome.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css"> 
+  
+>>>>>>> 4310dd9ef0dba691802b2073cbde0422623ceec9
 
   <script src="views/app/js/generales.js"></script>
   
@@ -22,6 +27,10 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HOJA DE ESTILOS TAPS -->
+    <link href="css/estilos.css" rel="stylesheet">
+    
 
     <!-- Custom styles for this template -->
     <link href="css/shop-homepage.css" rel="stylesheet">

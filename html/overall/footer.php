@@ -1,6 +1,6 @@
 
 
-<section class="mbr-section mbr-section--relative mbr-section--fixed-size" id="social-buttons2-13" style="background-color: rgb(154, 235, 215);">
+<section class="mbr-section mbr-section--relative mbr-section--fixed-size " id="social-buttons2-13" style="background-color: rgb(154, 235, 215);">
     <div class="mbr-section__container container">
         <div class="mbr-header mbr-header--inline row">
             <div class="col-sm-4">
@@ -12,11 +12,7 @@
               <a class="mbr-social-icons__icon socicon-bg-googleplus" title="Google+" target="_blank" href="https://plus.google.com/u/0/+taps"><i class="socicon socicon-googleplus"></i></a>
               <a class="mbr-social-icons__icon socicon-bg-youtube" title="YouTube" target="_blank" href="http://youtube.com/taps"><i class="socicon socicon-youtube"></i></a>
               <a class="mbr-social-icons__icon socicon-bg-instagram" title="Instagram" target="_blank" href="#"><i class="socicon socicon-instagram"></i></a>
-              <a class="mbr-social-icons__icon socicon-bg-pinterest" title="Pinterest" target="_blank" href="#"><i class="socicon socicon-pinterest"></i></a>
-              <a class="mbr-social-icons__icon socicon-bg-github" title="GitHub" target="_blank" href="https://github.com/taps"><i class="socicon socicon-github"></i></a>
-              <a class="mbr-social-icons__icon socicon-bg-behance" title="Behance" target="_blank" href="#"><i class="socicon socicon-behance"></i></a>
-              <a class="mbr-social-icons__icon socicon-bg-tumblr" title="Tumblr" target="_blank" href="#"><i class="socicon socicon-tumblr"></i></a>
-              <a class="mbr-social-icons__icon socicon-bg-linkedin" title="LinkedIn" target="_blank" href="#"><i class="socicon socicon-linkedin"></i></a>
+            
           </div>
     </div>
 </section>
