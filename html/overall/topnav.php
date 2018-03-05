@@ -16,7 +16,7 @@
               <a class="nav-link box bar" href="?view=Nosotros">Nosotros</a>
             </li>
             <li class="nav-item dropdown">
-                    <a class="nav-link box bar" data-toggle="dropdown" href="#">Productos </a>
+                    <a class="nav-link box bar" data-toggle="dropdown" href="#">Productos <i class="fas fa-sort-down"></i></a> 
                     <ul class="dropdown-menu">
                       <li ><a href="?view=carteras">Carteras</a></li>
                       <li ><a href="?view=collares">Collares</a></li>
