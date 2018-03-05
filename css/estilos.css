@@ -91,9 +91,3 @@ body{
   .box:hover::after, .box:hover::before {
     -webkit-transform: scale(1);
   }
-<<<<<<< HEAD
-=======
-  h2{
-    color:rgb(183, 226, 194) !important;
-}
->>>>>>> f35bea5e81eff44a130a5a8a547898685337114a
