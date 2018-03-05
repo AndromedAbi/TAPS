@@ -1,3 +1,8 @@
+body{
+
+    font-family: cursive;
+}
+
 .logo{
     position: absolute;
     width: 120px;

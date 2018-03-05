@@ -6,11 +6,7 @@ session_start();
 
 #Constantes de Conexion
 define('DB_HOST','');
-<<<<<<< HEAD
 define('DB_USER','root');
-=======
-define('DB_USER','');
->>>>>>> 1fea578d8f742afcbf9858be4f4d2a29888fd237
 define('DB_PASS','');
 define('DB_NAME','');
 
@@ -35,10 +31,6 @@ require('core/bin/functions/User.php');
 require('core/bin/functions/EmailTemp.php');
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 1fea578d8f742afcbf9858be4f4d2a29888fd237
 //$user = User();
 
 
