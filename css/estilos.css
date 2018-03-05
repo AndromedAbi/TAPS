@@ -91,12 +91,5 @@ body{
   .box:hover::after, .box:hover::before {
     -webkit-transform: scale(1);
   }
-<<<<<<< HEAD
-  h2{
-    color:rgb(183, 226, 194) !important;
-}
-h1{
-  color:red !important;
-}
-=======
->>>>>>> 840079da07759f8d3b3a24fa3d1faec46ad0b004
+
+  
