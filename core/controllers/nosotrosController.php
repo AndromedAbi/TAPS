@@ -1,5 +1,5 @@
 <?php
 
-require('html/index/Nosotros.php')
+require('html/index/Nosotros.php');
 
 ?>

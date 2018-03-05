@@ -19,9 +19,10 @@
             <li class="nav-item dropdown">
                     <a class="nav-link" data-toggle="dropdown" href="#">Productos </a>
                     <ul class="dropdown-menu">
-                      <li ><a href="?view=Producto">Carteras</a></li>
-                      <li ><a href="#">Accesorios</a></li>
-                      <li ><a href="#">Hogar</a></li>
+                      <li ><a href="?view=carteras">Carteras</a></li>
+                      <li ><a href="?view=collares">Collares</a></li>
+                      <li ><a href="?view=correas">Correas</a></li>
+                      <li ><a href="?view=pulceras">Pulceras</a></li>
                     </ul>
                 </li>            
             <li class="nav-item">
