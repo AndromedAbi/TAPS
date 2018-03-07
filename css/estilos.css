@@ -1,6 +1,11 @@
+@font-face{
+  font-family:"The Blacklist";
+  scr:url("views/fontawesome/font/The Blacklist.ttf");
+}
+
 body{
 
- font-family:"The Blacklist";
+ font-family: The Blacklist;
 }
 
 .logo{
