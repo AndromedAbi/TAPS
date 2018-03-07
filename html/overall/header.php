@@ -13,7 +13,16 @@
   <link rel="stylesheet" href="views/bootstrap/css/bootstrap.min.css">  
   <link rel="stylesheet" href="views/socicon/css/socicon.min.css">
   <link rel="stylesheet" href="views/mobirise/css/style.css"> 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  <link rel="stylesheet" href="css/style.css"> "   
+=======
+  <link href="views/fontawesome/fontawesome.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css"> 
+>>>>>>> 54d901e8ddcf6ebaead6150d53e10bc1f77aac3a
   
+>>>>>>> 4310dd9ef0dba691802b2073cbde0422623ceec9
 
   <script src="views/app/js/generales.js"></script>
   
